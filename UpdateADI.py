@@ -36,8 +36,8 @@ elif not anyDot.match(args.adi_file): # XYZ
 	rootName = args.adi_file
 	origName = args.adi_file + ".adi"
 else:
-	print "Invalid ADI filename: " + args.adi_file
-	print "Format: XYZ.adi or XYZ with no dot."
+	print("Invalid ADI filename: " + args.adi_file)
+	print("Format: XYZ.adi or XYZ with no dot.")
 	exit(1)
 
 # Get date/time of original ADI file.
